@@ -1,4 +1,4 @@
-![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&width=440&lines=Hi%2C+I'm+AB;DSA+%2B+Python+Learner;ML%2FAI+Enthusiast;Research+Curious)
+![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00F7FF&width=440&lines=Hi%2C+I'm+AB;DSA+%2B+AI_Agents;ML%2FAI+Enthusiast;Research+Curious)
 
 # 👋 Hi, I’m AB
 
