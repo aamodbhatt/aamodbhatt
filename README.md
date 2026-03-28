@@ -16,7 +16,7 @@
 
 ---
 
-I build ML systems that are meant to last — from LoRA fine-tuning experiments and agentic pipelines to deployed production automation. Final-year B.E. (AI/ML) at VTU, CGPA 9.23. Currently preparing for IIITH PGEE and applying for PhD research at NUS and NTU.
+I build ML systems that are meant to last from LoRA fine-tuning experiments and agentic pipelines to deployed production automation. Final-year B.E. (AI/ML) at VTU, CGPA 9.23. 
 
 My work spans LLM evaluation, self-supervised learning, representation learning, and practical MLOps. I care about reproducibility, clean architecture, and getting the metrics right before claiming anything.
 
