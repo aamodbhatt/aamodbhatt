@@ -16,7 +16,7 @@
 
 ---
 
-I build ML systems that are meant to last. From LoRA fine-tuning experiments and agentic pipelines to deployed production automation. Final-year B.E. (AI/ML) at VTU, CGPA 9.23. 
+I build ML systems that are meant to last. From LoRA fine-tuning experiments and agentic pipelines to deployed production automation. Engineering Graduate in AIML. I am 22. 
 
 My work spans LLM evaluation, self-supervised learning, representation learning, and practical MLOps. I care about reproducibility, clean architecture, and getting the metrics right before claiming anything.
 
