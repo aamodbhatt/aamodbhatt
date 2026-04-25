@@ -8,7 +8,7 @@
 
 <div align="center">
 
-[![Email](https://img.shields.io/badge/bhatt.aamod%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=c8a96e&labelColor=111111)](mailto:bhatt.aamod@gmail.com)&ensp;[![Location](https://img.shields.io/badge/Hyderabad%20·%20India-111111?style=flat-square&logo=googlemaps&logoColor=c8a96e&labelColor=111111)](https://maps.google.com/?q=Hyderabad,India)
+[![Email](https://img.shields.io/badge/bhatt.aamod%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=c8a96e&labelColor=111111)](mailto:bhatt.aamod@gmail.com)&ensp;
 
 </div>
 
