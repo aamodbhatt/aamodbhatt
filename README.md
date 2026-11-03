@@ -5,7 +5,7 @@
   </picture>
 </p>
 
-<p align="center">Hi, I'm Aamod, a machine learning engineer. I build complete systems, from lie-detecting probes for LLMs to a dungeon you can play inside a diffusion model. I also make&nbsp;music.</p>
+<p align="center">Hi, I'm Aamod, a machine learning engineer. I build complete systems, from lie-detecting probes for LLMs to a dungeon you can play inside a diffusion model. Also a&nbsp;musician!.</p>
 
 <p align="center"><a href="mailto:bhatt.aamod@gmail.com">bhatt.aamod@gmail.com</a></p>
 
