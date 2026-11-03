@@ -7,7 +7,7 @@
 
 <p align="center">Hi, I'm Aamod, a machine learning engineer. I build complete systems, from lie-detecting probes for LLMs to a dungeon you can play inside a diffusion model. I also make&nbsp;music.</p>
 
-<p align="center"><a href="mailto:bhatt.aamod@gmail.com">bhatt.aamod@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/aamodbhatt">LinkedIn</a></p>
+<p align="center"><a href="mailto:bhatt.aamod@gmail.com">bhatt.aamod@gmail.com</a></p>
 
 <br>
 
@@ -32,7 +32,25 @@
 
 ### Toolkit
 
-Python, PyTorch, Hugging Face Transformers, scikit-learn, XGBoost, LangGraph, RAG, MCP, LoRA, SQL, DuckDB, FastAPI, Docker and AWS. TypeScript, Go and Rust when a project calls for&nbsp;them.
+<p align="center">
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/python-evening.svg"><img src="assets/toolkit/python-day.svg" height="34" alt="Python"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/pytorch-evening.svg"><img src="assets/toolkit/pytorch-day.svg" height="34" alt="PyTorch"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/transformers-evening.svg"><img src="assets/toolkit/transformers-day.svg" height="34" alt="Hugging Face Transformers"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/scikit-learn-evening.svg"><img src="assets/toolkit/scikit-learn-day.svg" height="34" alt="scikit-learn"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/xgboost-evening.svg"><img src="assets/toolkit/xgboost-day.svg" height="34" alt="XGBoost"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/langgraph-evening.svg"><img src="assets/toolkit/langgraph-day.svg" height="34" alt="LangGraph"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/rag-evening.svg"><img src="assets/toolkit/rag-day.svg" height="34" alt="RAG"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/mcp-evening.svg"><img src="assets/toolkit/mcp-day.svg" height="34" alt="MCP"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/lora-evening.svg"><img src="assets/toolkit/lora-day.svg" height="34" alt="LoRA"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/sql-evening.svg"><img src="assets/toolkit/sql-day.svg" height="34" alt="SQL"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/duckdb-evening.svg"><img src="assets/toolkit/duckdb-day.svg" height="34" alt="DuckDB"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/fastapi-evening.svg"><img src="assets/toolkit/fastapi-day.svg" height="34" alt="FastAPI"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/docker-evening.svg"><img src="assets/toolkit/docker-day.svg" height="34" alt="Docker"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/aws-evening.svg"><img src="assets/toolkit/aws-day.svg" height="34" alt="AWS"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/typescript-evening.svg"><img src="assets/toolkit/typescript-day.svg" height="34" alt="TypeScript"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/go-evening.svg"><img src="assets/toolkit/go-day.svg" height="34" alt="Go"></picture>
+<picture><source media="(prefers-color-scheme: dark)" srcset="assets/toolkit/rust-evening.svg"><img src="assets/toolkit/rust-day.svg" height="34" alt="Rust"></picture>
+</p>
 
 <details>
 <summary>Earlier work</summary>

@@ -12,6 +12,7 @@ from cards import ROWS, card, faces
 from inter import Face
 from motifs import source
 from scene import DAY, EVENING, hero, make_vista, type_clear
+from toolkit import DARK, LIGHT, TOOLS, pill
 
 ASSETS = Path(__file__).resolve().parent.parent / "assets"
 
@@ -31,6 +32,11 @@ def main() -> None:
         write(ASSETS / f"hero-{theme.key}.svg", hero(theme, name_face, role_face, vista))
     for index, (c, row) in enumerate(ROWS):
         write(ASSETS / "cards" / f"{c.key}.svg", card(c, card_faces, index, row), f"  (motif: {source(c.key)})")
+    (ASSETS / "toolkit").mkdir(exist_ok=True)
+    tool_face = Face(opsz=18, wght=500)
+    for palette in (LIGHT, DARK):
+        for t in TOOLS:
+            write(ASSETS / "toolkit" / f"{t.key}-{palette.key}.svg", pill(t, palette, tool_face))
 
 
 if __name__ == "__main__":

@@ -30,6 +30,15 @@ right behind it. Every digit, comma, decimal point, slash and unit stays whole.
   a small arrow (U+2197, which Inter sets at x-height), in a link blue: `#174d91` on a light sky and `#7db3f2`
   on a dark one, each taken further from the sky where it must be to keep 4.5:1 contrast.
 
+## The toolkit
+
+`toolkit/<tool>-day.svg` and `toolkit/<tool>-evening.svg`: one small pill per tool, with its logo and its name set
+in Inter, on the page's own greys, with the logos in the banner's jade. Each pill is its own image, so the row
+wraps like text on any width of page. The list lives in `toolkit.py`. Logos come from
+[Simple Icons](https://simpleicons.org) 16.36.0 (CC0 1.0), copied into `icons.py`; the logos remain the trademarks
+of their owners. XGBoost, RAG, LoRA, SQL and AWS, which have no logo there, get a plain glyph drawn in
+`toolkit.py`.
+
 ## Motifs
 
 Every card shares the world (the sky, the light, the sea of cloud and the number on the horizon) and gets one
@@ -71,6 +80,7 @@ default, the plain pillar at its outer edge with at least 36 units of sky betwee
 - `cards.py` reuses those helpers and colours for the cards: the shared world in the banner's own
   coordinates, shifted onto the card, with each card's motif drawn into it.
 - `stage.py` and `motifs/` hold the motif hook and the motifs.
+- `toolkit.py` and `icons.py` draw the toolkit pills.
 - `inter.py` turns all text into SVG outlines, so the images need no font at runtime. On the cards each glyph
   is stored once and reused.
 
