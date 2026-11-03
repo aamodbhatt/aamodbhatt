@@ -1,115 +1,46 @@
-<div align="center">
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/hero-evening.svg">
+    <img src="assets/hero-day.svg" width="100%" alt="Aamod Bhatt, Machine Learning Engineer · Researcher, above stone pillars rising from a sea of cloud">
+  </picture>
+</p>
 
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:0a0a0a,100:111111&height=160&section=header&text=Aamod%20Bhatt&fontSize=52&fontColor=f5f0e8&fontAlignY=55&animation=fadeIn&desc=ML%20Engineer%20%20%C2%B7%20%20AI%20Researcher%20%20%C2%B7%20%Musician&descAlignY=78&descSize=14&descColor=888880"/>
+<p align="center">Hi, I'm Aamod, a machine learning engineer. I build complete systems, from lie-detecting probes for LLMs to a dungeon you can play inside a diffusion model. I also make&nbsp;music.</p>
 
-</div>
+<p align="center"><a href="mailto:bhatt.aamod@gmail.com">bhatt.aamod@gmail.com</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/aamodbhatt">LinkedIn</a></p>
 
-<br/>
+<br>
 
-<div align="center">
+### Selected work
 
-[![Email](https://img.shields.io/badge/bhatt.aamod%40gmail.com-111111?style=flat-square&logo=gmail&logoColor=c8a96e&labelColor=111111)](mailto:bhatt.aamod@gmail.com)&ensp;
+<p align="center">
+<a href="https://github.com/aamodbhatt/marionette"><img src="assets/cards/marionette.svg" width="392" alt="marionette. A polygraph for LLMs: linear probes that catch a model lying. 0.896 AUROC on held-out spontaneous lies."></a>
+<a href="https://github.com/aamodbhatt/dreamcade"><img src="assets/cards/dreamcade.svg" width="392" alt="dreamcade: A playable 3D dungeon dreamed by a diffusion model, in the browser. 21.9 dB PSNR over 48-frame rollouts."></a>
+<a href="https://github.com/aamodbhatt/quarry"><img src="assets/cards/quarry.svg" width="392" alt="quarry: A LangGraph text-to-SQL agent with an MCP server. 162 / 162 red-team cases passed."></a>
+<a href="https://github.com/aamodbhatt/witness"><img src="assets/cards/witness.svg" width="392" alt="witness: A retrieval-augmented fact-checker for any webpage. 76.4% accuracy on 20k FEVER claims."></a>
+<a href="https://github.com/aamodbhatt/bitgolf"><img src="assets/cards/bitgolf.svg" width="392" alt="bitgolf: Neural text compression with a tiny transformer. 1.50 bits per byte, 40% smaller than brotli."></a>
+<a href="https://github.com/aamodbhatt/persuadables"><img src="assets/cards/persuadables.svg" width="392" alt="persuadables: Uplift modeling on a 64k-customer email A/B test. +7.4 pp visits for women’s-wear buyers."></a>
+<a href="https://github.com/aamodbhatt/nandbox"><img src="assets/cards/nandbox.svg" width="392" alt="nandbox: An 8-bit CPU that plays Snake in the browser. 1,521 NAND gates, the only logic primitive."></a>
+<a href="https://github.com/aamodbhatt/excelsior"><img src="assets/cards/excelsior.svg" width="392" alt="excelsior: A spreadsheet engine that runs a transformer in its formulas. 5.8e-15 max difference from PyTorch."></a>
+</p>
 
-</div>
+### Research
 
-<br/>
+<p align="center">
+<a href="https://github.com/openai/parameter-golf/pull/1148/files"><img src="assets/cards/parameter-golf.svg" width="392" alt="OpenAI Parameter Golf: Test-time training with Muon on 8× H100. 1.1179 bits per byte, merged submission (3-seed mean)."></a>
+</p>
 
----
+### Toolkit
 
-I build ML systems that are meant to last. From LoRA fine-tuning experiments and agentic pipelines to deployed production automation. Engineering Graduate in AIML. I am 22. 
+Python, PyTorch, Hugging Face Transformers, scikit-learn, XGBoost, LangGraph, RAG, MCP, LoRA, SQL, DuckDB, FastAPI, Docker and AWS. TypeScript, Go and Rust when a project calls for&nbsp;them.
 
-My work spans LLM evaluation, self-supervised learning, representation learning, and practical MLOps. I care about reproducibility, clean architecture, and getting the metrics right before claiming anything.
+<details>
+<summary>Earlier work</summary>
+<br>
 
----
+- [lack-of-invariance](https://github.com/aamodbhatt/lack-of-invariance) · A study of how LLM answers shift when a question is&nbsp;paraphrased
+- [model-arena](https://github.com/aamodbhatt/model-arena) · A terminal arena where specialized agents debate in structured&nbsp;rounds
+- [recursive-knowledge-engine](https://github.com/aamodbhatt/recursive-knowledge-engine) · A RAG system that retrieves, answers, critiques and refines its own&nbsp;queries
+- [ftuneprompt](https://github.com/aamodbhatt/ftuneprompt) · LoRA experiments on when to fine-tune and when to prompt, with a CLI that recommends&nbsp;one
 
-<br/>
-
-## Work
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-### [tldrun](https://github.com/aamodbhatt/tldrun) &nbsp;[![Live](https://img.shields.io/badge/↗%20live-1e1a12?style=flat-square&color=1e1a12&logoColor=c8a96e)](https://tldrun.vercel.app)
-
-Upload an ML paper PDF, get a runnable scaffold with training script, Docker, configs, and a reproducible ZIP — with anti-hype implementation notes surfaced automatically.
-
-`TypeScript` &nbsp; `React` &nbsp; `Express` &nbsp; `Vite`
-
-</td>
-<td width="50%" valign="top">
-
-### [ftuneprompt](https://github.com/aamodbhatt/ftuneprompt)
-
-50+ LoRA experiments across 3 tasks and model families to answer: fine-tune or prompt? Ships a CLI tool that gives a concrete recommendation based on your task, data size, latency, and cost.
-
-`Python` &nbsp; `LoRA` &nbsp; `QLoRA` &nbsp; `Empirical ML`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [model-arena](https://github.com/aamodbhatt/model-arena)
-
-Terminal-native multi-agent reasoning arena where specialized agents (strategist, reasoner, critic, judge) debate in structured rounds and produce a scored verdict with tradeoffs.
-
-`Python` &nbsp; `OpenRouter` &nbsp; `Rich` &nbsp; `Multi-agent`
-
-</td>
-<td width="50%" valign="top">
-
-### [recursive-knowledge-engine](https://github.com/aamodbhatt/recursive-knowledge-engine)
-
-Full-stack RAG system built around a recursive self-refinement loop — retrieve, answer, critique, refine query, repeat — with ablation mode, calibration tracking, and failure logging.
-
-`Python` &nbsp; `FastAPI` &nbsp; `FAISS` &nbsp; `React`
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### [cycleflow](https://github.com/aamodbhatt/cycleflow)
-
-Research prototype for flow-guided video inpainting. Uses RAFT optical flow and cycle-consistent temporal optimization to remove or replace objects without the usual flickering artifacts.
-
-`Python` &nbsp; `Stable Diffusion` &nbsp; `RAFT` &nbsp; `Computer Vision`
-
-</td>
-<td width="50%" valign="top">
-
-### [lack-of-invariance](https://github.com/aamodbhatt/lack-of-invariance)
-
-Empirical study measuring how LLM answers shift under semantic paraphrasing. Introduces the Answer Invariance Score; mean score of 0.6968 across Mistral-7B on SQuAD reveals high phrasing sensitivity.
-
-`Python` &nbsp; `Mistral-7B` &nbsp; `LLM Evaluation`
-
-</td>
-</tr>
-</table>
-
-<br/>
-
-## Stack
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-111111?style=flat-square&logo=python&logoColor=c8a96e)
-![PyTorch](https://img.shields.io/badge/PyTorch-111111?style=flat-square&logo=pytorch&logoColor=c8a96e)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-111111?style=flat-square&logo=tensorflow&logoColor=c8a96e)
-![FastAPI](https://img.shields.io/badge/FastAPI-111111?style=flat-square&logo=fastapi&logoColor=c8a96e)
-![Next.js](https://img.shields.io/badge/Next.js-111111?style=flat-square&logo=nextdotjs&logoColor=c8a96e)
-![Docker](https://img.shields.io/badge/Docker-111111?style=flat-square&logo=docker&logoColor=c8a96e)
-![Linux](https://img.shields.io/badge/Linux-111111?style=flat-square&logo=linux&logoColor=c8a96e)
-![AWS](https://img.shields.io/badge/AWS-111111?style=flat-square&logo=amazonwebservices&logoColor=c8a96e)
-![Git](https://img.shields.io/badge/Git-111111?style=flat-square&logo=git&logoColor=c8a96e)
-![n8n](https://img.shields.io/badge/n8n-111111?style=flat-square&logo=n8n&logoColor=c8a96e)
-
-</div>
-
-<br/>
-
-<div align="center">
-<img src="https://capsule-render.vercel.app/api?type=soft&color=0:111111,100:0a0a0a&height=60&section=footer"/>
-</div>
+</details>
